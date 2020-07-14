@@ -1,3 +1,21 @@
+/* Scrollbar Chrome */
+::-webkit-scrollbar-thumb {
+  background-color: #cdcdcd;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f0f0f0;
+}
+
+/* Scrollbar Firefox */
+:root{
+  scrollbar-color: light;
+  scrollbar-width: thin !important;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -51,4 +69,17 @@ footer.page-footer {
 h1 {
   font-style: oblique;
   font-stretch: ultra-condensed
+}
+
+/* Configuração Icones Social Media */
+footer a{
+  color: whitesmoke;
+  font-size: 4em;
+  transition: text-shadow 0.5s;
+}
+
+footer a:active,
+footer a:hover  {
+  text-decoration: none;
+  text-shadow: 0px 0px 10px whitesmoke;
 }
